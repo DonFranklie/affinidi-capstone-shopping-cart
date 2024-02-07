@@ -1,0 +1,43 @@
+.Footer {
+  max-width: 1200px;
+  background-color: #ccc;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 55vh;
+}
+
+.Footer h3 {
+  color: #03377f;
+}
+.FooterList li,
+.FooterLink {
+  font-family: serif, Cambria, Cochin, Georgia, Times, "Times New Roman";
+  font-size: 10pt;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  /* text-align: center; */
+}
+.FooterList li img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* position: relative; */
+  /* top: 3px; */
+}
+.FooterList li a {
+  color: black;
+  text-decoration: none;
+}
+.FooterList li a:hover {
+  text-decoration: underline;
+  color: #03377f;
+}
+@media (max-width: 450px) {
+  .Footer {
+    flex-direction: column;
+  }
+}
